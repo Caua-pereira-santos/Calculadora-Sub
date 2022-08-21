@@ -18,7 +18,7 @@ namespace Calculadora.Controllers
         {
             
             ModelState.Clear();
-            calculadoraViewModel.Resultado = calculadoraViewModel.num1 + calculadoraViewModel.Num2;
+            calculadoraViewModel.Resultado = calculadoraViewModel.num1 - calculadoraViewModel.Num2;
             return View(calculadoraViewModel);
         }
     }
